@@ -1,0 +1,159 @@
+{
+  "contractName": "IBancorGasPriceLimit",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "gasPrice",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b609b8061001c6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063fe173b97146044575b600080fd5b3415604e57600080fd5b6054606a565b6040518082815260200191505060405180910390f35b6000905600a165627a7a723058206ae53af473162227902b1374fbb8dc767f602a86da7867926def9d6ee8531ab80029",
+  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063fe173b97146044575b600080fd5b3415604e57600080fd5b6054606a565b6040518082815260200191505060405180910390f35b6000905600a165627a7a723058206ae53af473162227902b1374fbb8dc767f602a86da7867926def9d6ee8531ab80029",
+  "sourceMap": "69:94:22:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "69:94:22:-;;;;;;;;;;;;;;;;;;;;;;;;105:56;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;150:7;105:56;:::o",
+  "source": "pragma solidity ^0.4.11;\n\n/*\n    Bancor Gas Price Limit interface\n*/\ncontract IBancorGasPriceLimit {\n    function gasPrice() public constant returns (uint256) {}\n}\n",
+  "sourcePath": "C:\\Users\\Diel\\Desktop\\MetaToro\\Genun Wallet\\Genun Contracts\\solidity\\contracts\\interfaces\\IBancorGasPriceLimit.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/C/Users/Diel/Desktop/MetaToro/Genun Wallet/Genun Contracts/solidity/contracts/interfaces/IBancorGasPriceLimit.sol",
+      "exportedSymbols": {
+        "IBancorGasPriceLimit": [
+          5238
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".11"
+          ]
+        },
+        "id": 5231,
+        "name": "PragmaDirective",
+        "src": "0:24:22"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            5238
+          ],
+          "name": "IBancorGasPriceLimit",
+          "scope": 5239
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": true,
+              "implemented": true,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "gasPrice",
+              "payable": false,
+              "scope": 5238,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 5232,
+                "name": "ParameterList",
+                "src": "122:2:22"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 5237,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 5233,
+                        "name": "ElementaryTypeName",
+                        "src": "150:7:22"
+                      }
+                    ],
+                    "id": 5234,
+                    "name": "VariableDeclaration",
+                    "src": "150:7:22"
+                  }
+                ],
+                "id": 5235,
+                "name": "ParameterList",
+                "src": "149:9:22"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 5236,
+                "name": "Block",
+                "src": "159:2:22"
+              }
+            ],
+            "id": 5237,
+            "name": "FunctionDefinition",
+            "src": "105:56:22"
+          }
+        ],
+        "id": 5238,
+        "name": "ContractDefinition",
+        "src": "69:94:22"
+      }
+    ],
+    "id": 5239,
+    "name": "SourceUnit",
+    "src": "0:164:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-01-10T12:34:07.803Z"
+}
